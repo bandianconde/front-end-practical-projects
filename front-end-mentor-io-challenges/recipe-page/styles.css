@@ -1,0 +1,219 @@
+
+.outfit-400 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.outfit-600 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+   
+}
+
+h1, h2, ul, li, ol, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (min-width: 738px){
+    :root {
+        --main-width: 736px;
+        --main-padding-top: 40px;
+        --main-padding-bottom: 40px;
+        --main-padding-left: 40px;
+        --main-padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 738px) and (min-width: 376px){
+    :root {
+        --main-width: 84%;
+        --main-padding-top: 40px;
+        --main-padding-bottom: 40px;
+        --main-padding-left: 40px;
+        --main-padding-right: 40px;
+
+    }
+    
+}
+
+@media screen and (max-width: 376px){
+    :root {
+        --main-width: 375px;
+        --main-padding-top: 0px;
+        --main-padding-bottom: 32px;
+        --main-padding-left: 32px;
+        --main-padding-right: 32px
+    }
+    body{
+        margin: 0;
+    }
+    img {
+        display: block;
+        margin-left: -32px;
+        width: calc(100% + 2 * 32px);
+        height: auto;
+    }
+}
+div#main {
+    display: flex;
+    flex-direction: column;
+    width: var(--main-width);
+    box-sizing: border-box;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: var(--main-padding-top) var(--main-padding-right) var(--main-padding-bottom) var(--main-padding-left);
+    /*padding: 40px;*/
+    gap: 40px;
+    border-radius: 24px;
+}
+
+div#header h1{
+    margin-bottom: 24px;
+
+}
+div#description {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+div#preparation {
+    padding: 24px;
+    background-color: hsl(330, 100%, 98%);
+    text-align: left;
+}
+
+div#preparation h3 {
+    margin-bottom: 16px;
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+}
+div#preparation ul  {
+    list-style: none;
+    padding-left: 0;
+}
+div#preparation ul li {
+ padding-top: 8px;
+ padding-bottom: 8px;
+}
+
+
+div#preparation ul li::before {
+  content: "•";
+  color: hsl(14, 45%, 36%);
+  display: inline-block;
+  width: 32px;
+  margin-left: 0px; /* Push bullet to the right */
+}
+
+div#ingredients   {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 32px;
+}
+
+div#ingredients h2  {
+    margin-bottom: 24px;
+
+}
+div#ingredients ul  {
+    list-style: none;
+    padding-left: 0;
+}
+
+div#ingredients ul li {
+ padding-top: 8px;
+ padding-bottom: 8px;
+}
+
+div#ingredients ul li::before {
+ content: "•";
+  color: hsl(14, 45%, 36%);
+  display: inline-block;
+  width: 32px;
+  margin-left: 8px; /* Push bullet to the right */
+}
+
+div#instructions  {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 16px;
+    
+}
+div#instructions h2 {
+
+    margin-bottom: 24px;
+}
+div#instructions ol {
+    list-style: none;
+    counter-reset: item;
+}
+div#instructions ol li{
+  counter-increment: item;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+
+div#instructions ol li::before{
+  color: hsl(14, 45%, 36%);
+  content: counter(item) ".";
+  font-weight: bold;
+  width: 2em;           /* Reserve space for the number */
+  text-align: right;
+  flex-shrink: 0; 
+}
+
+div#nutrition h2 {
+    margin-bottom: 24px;;
+}
+div#nutrition > p {
+    margin-bottom: 24px;;
+}
+div#nutrition-table {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+div#nutrition-table > * {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    text-align: left;
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    padding: 0px 32px;
+    padding-bottom: 16px;
+
+}
+
+div#nutrition-table .row > *{
+    flex: 1;
+}
+
+p.outfit-600 {
+    color: hsl(14, 45%, 36%);
+}
+h1 {
+    font-size: 40px;
+    color: hsl(24, 5%, 18%);
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-size: 28px;
+}
