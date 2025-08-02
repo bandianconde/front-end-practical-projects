@@ -1,0 +1,149 @@
+
+.fraunces-700 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+
+
+.montserrat-700 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+p, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    :root {
+        --main-flex-direction: column;
+
+    }
+    .desktop-img {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+     :root {
+        --main-flex-direction: row;
+
+    }
+    .mobile-img {
+        display: none;
+    }
+}
+
+#main {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);;
+    display: flex;
+    flex-direction: var(--main-flex-direction);
+    align-items: stretch;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+ #main > * {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+
+} 
+#main #product-image {
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    display: block;
+}
+
+
+
+#main #product-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px;
+}
+
+#product-desc-without-price p:first-child{
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+}
+
+#product-desc-without-price {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#product-desc-without-price h1{
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+h1 + p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+
+}
+
+#price {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#discounted-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 32px;
+}
+
+#original-price {
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    color:   hsl(0, 0%, 100%);
+    font-size: 14px;
+    background-color: hsl(158, 36%, 37%);
+    border: 0;
+}
+
+button:active, button:hover {
+    background-color: hsl(158, 42%, 18%);
+    cursor: grab;
+}
+
+#icon-cart {
+    width: 18px;
+    height: 18px;
+}
