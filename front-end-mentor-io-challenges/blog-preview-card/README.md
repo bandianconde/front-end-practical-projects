@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/bandianconde/blog-preview-card.git)
-- Live Site URL: [Live site URL](https://blog-preview-card-ten-murex.vercel.app/)
+- Solution URL: [Solution URL](https://github.com/bandianconde/front-end-practical-projects/tree/main/front-end-mentor-io-challenges/blog-preview-card)
+- Live Site URL: [Live site URL](https://blog-preview-card-rho-amber.vercel.app/)
 
 ## My process
 
