@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github URL](https://github.com/bandianconde/four-card-feature-section)
-- Live Site URL: [Vercel website](https://four-card-feature-section-virid-eta.vercel.app/)
+- Solution URL: [Github URL](https://github.com/bandianconde/front-end-practical-projects/tree/main/front-end-mentor-io-challenges/four-card-feature-section)
+- Live Site URL: [Vercel website](https://four-card-feature-section-sepia-eight.vercel.app/)
 
 ## My process
 
