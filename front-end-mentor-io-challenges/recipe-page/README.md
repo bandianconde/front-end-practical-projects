@@ -10,7 +10,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
-- [Author](#author)
 
 
 ## Overview
@@ -41,8 +40,5 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 -  Chrome Developers Tools to check the responsiveness
 
-## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
