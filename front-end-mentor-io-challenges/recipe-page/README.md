@@ -22,8 +22,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Solution here](https://github.com/bandianconde/recipe-page-example)
-- Live Site URL: [Live site](https://recipe-page-example.vercel.app/)
+- Solution URL: [Solution here](https://github.com/bandianconde/front-end-practical-projects/blob/main/front-end-mentor-io-challenges/recipe-page)
+- Live Site URL: [Live site](https://recipe-page-green-omega.vercel.app/)
 
 ## My process
 

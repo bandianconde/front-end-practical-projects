@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/bandianconde/social-links-profile-example.git)
-- Live Site URL: [Live Site](https://social-links-profile-example-nu.vercel.app/)
+- Solution URL: [Solution](https://github.com/bandianconde/front-end-practical-projects/tree/main/front-end-mentor-io-challenges/social-links-profile)
+- Live Site URL: [Live Site](https://social-links-profile-silk-xi.vercel.app/)
 
 ## My process
 

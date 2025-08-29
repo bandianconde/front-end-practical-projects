@@ -24,8 +24,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/bandianconde/qr-code-main-component-flexbox)
-- Live Site URL: [Live site URL](https://qr-code-main-component-flexbox.vercel.app/)
+- Solution URL: [Solution URL here](https://github.com/bandianconde/front-end-practical-projects/tree/main/front-end-mentor-io-challenges/qr-code-component/)
+- Live Site URL: [Live site URL](https://qr-code-component-pi-lyart.vercel.app/)
 
 ## My process
 

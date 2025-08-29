@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/bandianconde/product-preview-card-component)
-- Live Site URL: [Vercel](https://product-preview-card-component-plum-phi.vercel.app/)
+- Solution URL: [Github](https://github.com/bandianconde/front-end-practical-projects/tree/main/front-end-mentor-io-challenges/product-preview-card-component)
+- Live Site URL: [Vercel](https://product-preview-card-component-xi-khaki.vercel.app/)
 
 ## My Process
 ### Built with
