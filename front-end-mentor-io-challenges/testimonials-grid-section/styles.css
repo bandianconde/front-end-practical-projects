@@ -1,4 +1,17 @@
 
+:root {
+    --grey-color-400: hsl(224, 10%, 45%);
+    --grey-color-500: hsl(217, 19%, 35%);
+    --purple-color-500: hsl(263, 55%, 52%);
+    --grey-color-200: hsl(0, 0%, 81%);
+    --grey-color-200 : hsl(0, 0%, 81%);
+    --grey-color-100: hsl(214, 17%, 92%);
+    --purple-50-color:  hsl(260, 100%, 95%);
+    --white-color: white;
+    --dark-blue-bg-color:  hsl(219, 29%, 14%);
+
+}
+
 body {
 
     font-family: "Barlow Semi Condensed", sans-serif;
@@ -42,44 +55,44 @@ p {
 }
 
 .grey-bg-color-400 {
-    background-color:hsl(224, 10%, 45%)
+    background-color: var(--grey-color-400);
 }
 .grey-bg-color-500 {
-    background-color: hsl(217, 19%, 35%);
+    background-color: var(--grey-color-500);
 }
 .purple-bg-color-500 {
-    background-color: hsl(263, 55%, 52%);
+    background-color: var(--purple-color-500);
 }
 .grey-bg-color-200 {
-    background-color: hsl(0, 0%, 81%);
+    background-color: var(--grey-color-200);
 }
 
 .grey-color-400 {
-    color:hsl(224, 10%, 45%)
+    color:var(--grey-color-400);
 }
 .grey-color-500 {
-    color: hsl(217, 19%, 35%);
+    color: var(--grey-color-500);
 }
 .purple-color-500 {
-    color: hsl(263, 55%, 52%);
+    color: var(--purple-color-500);
 }
 .grey-color-200 {
-    color: hsl(0, 0%, 81%);
+    color: var(--grey-color-200);
 }
 .grey-color-100 {
-    color: hsl(214, 17%, 92%);
+    color: var(--grey-color-100);
 }
 .white-bg-color {
-    background-color: white;
+    background-color: var(--white-color);
 }
 .white-color {
-    color: white;
+    color: var(--white-color);
 }
 .purple-50-color {
-    color: hsl(260, 100%, 95%);
+    color: var(--purple-50-color);
 }
 .dark-blue-bg-color {
-    background-color: hsl(219, 29%, 14%);
+    background-color: var(--dark-blue-bg-color);
 }
 .testimony-title {
     display: flex;
@@ -109,10 +122,6 @@ p {
 
 }
 
-.grey-color-300 {
-    /* todo: we use the value of grey-400 */
-    color: hsl(224, 10%, 45%);
-}
 
 
 @media screen and (min-width: 500px) {
