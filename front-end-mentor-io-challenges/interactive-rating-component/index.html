@@ -18,7 +18,7 @@
 
     <div class="form-container">
       <div class="icon-star">
-          <img src="./images/icon-star.svg">
+          <img src="./images/icon-star.svg" alt="star icon">
       </div>
       <div class="form-content">
       <form>
@@ -27,7 +27,7 @@
           Please let us know how we did with your support request. All feedback is appreciated 
           to help us improve our offering!
         </p>
-        <div class="ratings">
+<!--         <div class="ratings">
           <input type="radio" id="value-1" name="rating" value="1" />
           <label for="value-1">1</label>
 
@@ -42,7 +42,29 @@
           
           <input type="radio" id="value-5" name="rating" value="5" />
           <label for="value-5">5</label>
-        </div>
+        </div> -->
+        <ul class="ratings">
+          <li>
+            <input type="radio" id="value-1" name="rating" value="1">
+            <label for="value-1">1</label>
+          </li>
+          <li>
+            <input type="radio" id="value-2" name="rating" value="2">
+            <label for="value-2">2</label>
+          </li>
+          <li>
+            <input type="radio" id="value-3" name="rating" value="3">
+            <label for="value-3">3</label>
+          </li>
+          <li>
+            <input type="radio" id="value-4" name="rating" value="4">
+            <label for="value-4">4</label>
+          </li>
+          <li>
+            <input type="radio" id="value-5" name="rating" value="5">
+            <label for="value-5">5</label>
+          </li>
+        </ul>
         <div class="submit-container">
           <button type="submit">Submit</button>
         </div>
@@ -52,16 +74,26 @@
     
     </div>
 
-    <div class="thanks-container hidden">
+    <!-- <div class="thanks-container hidden">
       <div  class="thank-you-img">
-        <img src="./images/illustration-thank-you.svg">
+        <img src="./images/illustration-thank-you.svg" alt="thank you illustration ">
       </div>
       <p class="rating-results"> You selected <span id="rating"></span> out of 5</p>
       <div class="congrats">
               <p class="thank-you">Thank you!</p>
       <p>  We appreciate you taking the time to give a rating. If you ever need more support, 
   don’t hesitate to get in touch!</p>
-      </div>
+      </div> -->
+      <section class="thanks-container hidden" aria-label="Thank you message">
+        <figure class="thank-you-img">
+          <img src="./images/illustration-thank-you.svg" alt="Thank you illustration">
+        </figure>
+        <p class="rating-results">You selected <span id="rating"></span> out of 5</p>
+        <section class="congrats">
+          <h2 class="thank-you">Thank you!</h2>
+          <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </section>
+      </section>
 
     </div>
   </main>

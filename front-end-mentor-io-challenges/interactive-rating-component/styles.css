@@ -3,9 +3,13 @@
     box-sizing: border-box;
 }
 
-main,h1, p {
+main, h1, h2, p, ul, li, section, figure{
     margin: 0;
     padding: 0;
+}
+
+ul {
+    list-style-type: none;
 }
 
 body {
