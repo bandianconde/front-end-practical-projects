@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: pink;
+    background-color: var(--light-grayish-blue);
     font-family: "Manrope", sans-serif;
     font-size: 13px;
     font-weight: 500;
