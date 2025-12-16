@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/bandianconde/front-end-practical-projects/tree/main/front-end-mentor-io-challenges/article-preview-component)
-- Live Site URL: [Live site URL](https://blog-preview-card-rho-amber.vercel.app/)
+- Live Site URL: [Live site URL](https://article-preview-component-omega-lovat.vercel.app/)
 
 ## My process
 
