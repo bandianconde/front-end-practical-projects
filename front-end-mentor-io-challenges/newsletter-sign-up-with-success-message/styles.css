@@ -113,7 +113,7 @@ button {
     font-weight: 700;
     text-align: center;
 }
-input {
+input[type="email"] {
     height: 58px;
     border-radius: 8px;
     padding: 16px 24px;
@@ -123,13 +123,13 @@ input {
 
 }
 
-input:invalid {
+input[type="email"]:not(:placeholder-shown):invalid {
   border: 1px solid var(--red-color);
   color: var(--red-color);
   background-color: var(--red-color-100);
 }
 
-input:valid {
+input[type="email"]:valid {
   border: 1px solid black;
 }
 

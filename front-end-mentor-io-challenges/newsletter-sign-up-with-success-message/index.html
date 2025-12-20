@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="./index.js" defer></script>
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
@@ -78,7 +79,7 @@
             <img src="./assets/images/icon-success.svg" alt="Success image">
           </div>
             <h1>Thanks for subscribing!</h1>
-            <p> A confirmation email has been sent to <strong>ash@loremcompany.com</strong>. 
+            <p> A confirmation email has been sent to <strong id="email-sent"></strong>. 
             Please open it and click the button inside to confirm your subscription.</p>
         </div>
         <button>Dismiss message</button>

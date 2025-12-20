@@ -3,6 +3,7 @@
 
 
 const form = document.querySelector('form');
+const formData = new FormData(form);
 const email = document.querySelector('input[type="email"]');
 email.addEventListener('invalid', (event) => {
     event.preventDefault();
@@ -23,5 +24,8 @@ form.addEventListener('submit', function (event){
     const thanksContainer = document.querySelector('.thanks');
     thanksContainer.classList.remove('hide');
     thanksContainer.style.display = 'flex';
+    console.log('ergegrer , ', document.getElementById('email-sent'));
+    console.log(formData);
+    document.getElementById('email-sent').innerText = email.value;
 
 })
