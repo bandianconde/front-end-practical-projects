@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/bandianconde/front-end-practical-projects/tree/main/front-end-mentor-io-challenges/newsletter-sign-up-with-success-message)
-- Live Site URL: [Add live site URL here](https://newletter-signup-with-sucess-messag.vercel.app/)
+- Solution URL: [Solution URL here](https://github.com/bandianconde/front-end-practical-projects/tree/main/front-end-mentor-io-challenges/newsletter-sign-up-with-success-message)
+- Live Site URL: [live site URL here](https://newletter-signup-with-sucess-messag.vercel.app/)
 
 ## My process
 
