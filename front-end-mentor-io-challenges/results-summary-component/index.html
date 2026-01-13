@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Results summary component</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="summary">
+        <h1>Your Result</h1>
+        <p class="global-score">
+          <span class="global-numerator">76</span>
+          <span class="global-denominator">of 100</span>
+        </p>
+        <div class="summary-text">
+          <h2>Great</h2>
+          <p>You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+
+        
+    </div>
+    <div class="detail">
+        <h2>Summary</h2>
+        <ul>
+          <li class="detail-category">
+            <div class="category-type">
+              <img src="assets/images/icon-reaction.svg" alt="">
+              <p class="light-red">Reaction</p>
+            </div>
+            <p class="category-score">
+              <span class="numerator">80</span> 
+              <span class="denominator">/ 100</span>
+            </p>
+          </li>
+
+          <li class="detail-category">
+            <div class="category-type">
+              <img src="assets/images/icon-memory.svg" alt="">
+              <p class="orangey-yellow">Memory</p>
+            </div>
+            <p class="category-score">
+              <span class="numerator">92</span>
+              <span class="denominator">/ 100</span>
+
+            </p>
+          </li>
+
+          <li class="detail-category">
+            <div class="category-type">
+              <img src="assets/images/icon-verbal.svg" alt="">
+              <p class="green-teal">Verbal</p>
+            </div>
+            <p class="category-score">
+              <span class="numerator">61</span>
+              <span class="denominator">/ 100</span>
+
+            </p>
+          </li>
+
+          <li class="detail-category">
+            <div class="category-type">
+              <img src="assets/images/icon-visual.svg" alt="">
+              <p class="cobalt-blue">Visual</p>
+            </div>
+            <p class="category-score">
+              <span class="numerator">72</span>
+              <span class="denominator">/ 100</span>
+
+            </p>
+          </li>
+
+        </ul>
+        <button>
+          Continue
+        </button>
+    </div>
+  </div>
+
+
+  
+</body>
+</html>
