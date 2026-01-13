@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution here](https://github.com/bandianconde/front-end-practical-projects/tree/main/front-end-mentor-io-challenges/results-summary-component)
-- Live Site URL: [Live site]()
+- Live Site URL: [Live site](https://results-summary-component-steel-six.vercel.app/)
 
 ## My process
 
